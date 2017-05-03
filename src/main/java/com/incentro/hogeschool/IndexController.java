@@ -17,9 +17,13 @@ public class IndexController {
         return "dank-af";
     }
 
-
     @RequestMapping(name = "/trololol", value="html", method = RequestMethod.GET)
     public String startTrolling(){
         return "/huehue.html";
+    }
+  
+    @RequestMapping("/time")
+    public String time() {
+        return "time";
     }
 }
