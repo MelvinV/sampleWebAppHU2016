@@ -16,4 +16,9 @@ public class IndexController {
         return "dank-af";
     }
 
+    @RequestMapping("/time")
+    public String time() {
+        return "time";
+    }
+
 }
